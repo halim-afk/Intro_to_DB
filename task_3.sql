@@ -1,3 +1,3 @@
 SELECT TABLE_NAME
-FROM information_schema.tables
-WHERE table_schema = DATABASE();
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA = 'alx_book_store';
